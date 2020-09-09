@@ -1,0 +1,76 @@
+
+# Level 1
+# Ping Pong
+
+START_LEVEL
+level_name:Ping Pong
+ball_velocities:45,550 -45,550 -30,550 30,550
+background:image(background_images/ping-pong-table.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/ping-pong_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:4
+START_BLOCKS
+-
+-
+-
+-
+-
+--z--z--z--z--
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Hala Madrid
+
+START_LEVEL
+level_name: Hala Madrid
+ball_velocities:45,550 46,550 47,550
+background:image(background_images/santiago-bernabeu-stadium.jpg)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/soccer_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:18
+START_BLOCKS
+-
+-l-l-l-l-l-l-
+-
+-
+-z-z-z-z-z-z-
+-
+-
+-l-z-l-z-l-z-
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# In The Beach of Trapatoni
+
+START_LEVEL
+level_name: In The Beach of Trapatoni
+ball_velocities:45,550
+background:image(background_images/beach.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/beach_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:75
+num_blocks:30
+START_BLOCKS
+-ll-l-l-ll-
+-zz-z-z-zz-
+-lz-l-z-lz-
+-ll-l-l-ll-
+-zz-z-z-zz-
+-
+-
+END_BLOCKS
+END_LEVEL

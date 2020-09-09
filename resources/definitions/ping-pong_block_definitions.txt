@@ -1,0 +1,8 @@
+# default values for blocks
+default height:25 width:50 stroke:color(black)
+
+# block definitions
+bdef symbol:z hit_points:1 fill:image(block_images/ping-pong-paddle.jpg)
+
+# spacers definitions
+sdef symbol:- width:50
